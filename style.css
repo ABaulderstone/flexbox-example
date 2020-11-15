@@ -1,0 +1,36 @@
+ body {
+     margin: 0;
+ }
+ .main-container {
+     background-color: grey;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+  nav {
+      margin-left: 2%;
+  }
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+  h1 {
+      font-size: 5rem;
+  }
+  h2 {
+      font-size: 2rem;
+  }
+  .desk-image {
+      width: 25%;
+      margin-right: 2%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+    }
+  }
